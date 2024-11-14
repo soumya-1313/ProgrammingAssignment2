@@ -6,7 +6,7 @@ makeCacheMatrix <- function(m = matrix()) {
   i <- NULL
   
   ## Method to set the matrix and clear the cached inverse
-  set <- function(matrix) {
+  set <- function(matrix){
     m <<- matrix
     i <<- NULL  # Clear the cached inverse when a new matrix is set
   }
